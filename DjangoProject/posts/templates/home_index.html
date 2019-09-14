@@ -1,0 +1,28 @@
+{% extends './base.html' %}
+{% block content %}
+<div class='ui three column centered stackable grid'>
+	<div class='column' style='margin-top:50px;margin-left:-50px'>
+		<form method = "post" enctype="multipart/form-data" >{% csrf_token %}
+			<div class='ui column segment' style='background-color:rgba(255,255,255,0.3)'>
+
+				
+				<div class='ui light lime inverted raised segment centered header'>
+					<span style="margin-top:10px">{{ form.as_p }}</span> 
+				</div>
+				<br>
+				<button type='submit' class='ui green button' style='margin-left:130px'><i class='cloud upload icon'></i>Upload Image</button>
+			</div>
+		</form>
+	</div>
+	<div class='column' style='margin-top:-50px;margin-left:50px;width:600px'>
+		<div class='ui column segment' style='background-color:rgba(255,255,255,0.3)'>
+			<form class='ui form' method='get'>
+				<div class='ui blue inverted raised segment centered header'><i class='user icon'></i>Beauty of the Wild</div>
+				<img src='/static/images/collage.jpg' style='margin-left:60px;height:350px;width:400px;'>
+			</form>
+		</div>
+	</div>
+</div>
+<br><br><br><br><br>
+
+{% endblock %}

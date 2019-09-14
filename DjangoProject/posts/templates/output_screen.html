@@ -1,0 +1,29 @@
+{% extends './base.html' %}
+{% block content %}
+<div class='ui three column centered stackable grid'>
+	<div class='column' style='margin-top:-50px;margin-left:50px;width:600px'>
+		<div class='ui column segment' style='background-color:rgba(255,255,255,0.3)'>
+			<form class='ui form' method='post'>
+				<div class='ui blue inverted raised segment centered header'><i class='image icon'></i>Input Image</div>
+				<img src='media/images/query_image.jpg' style='margin-left:60px;height:350px;width:400px;'>
+			</form>
+		</div>
+	</div>
+	<div class='column' style='margin-top:-50px;margin-left:50px;width:600px'>
+		<div class='ui column segment' style='background-color:rgba(255,255,255,0.3)'>
+			<form class='ui form' method='post'>
+				<div class='ui blue inverted raised segment centered header'><i class='image icon'></i>Output Image</div>
+				<img src='media/output/output_image.jpg' style='margin-left:60px;height:350px;width:400px;'>
+			</form>
+		</div>
+	</div>
+	<div class='column' style='margin-top:-50px;margin-left:50px;width:600px'>
+		<div class='ui column segment' style='background-color:rgba(255,255,255,0.3)'>
+			<form name="form" action='image_upload' action="post">
+				<button type="submit" class="ui large teal button" style="position: relative;top: -40px;left: 200px;"><i class='home icon'></i>Go To Home</button>
+			</form>
+		</div>
+	</div>
+</div>
+<br><br><br><br><br>
+{% endblock %}

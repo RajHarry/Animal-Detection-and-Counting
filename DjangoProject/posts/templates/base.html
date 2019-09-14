@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Project_Intern</title>
+		<link rel="stylesheet" type="text/css" href="/static/css/semantic.min.css">
+		<link rel="stylesheet" type="text/css" href="/static/css/icon.min.css">
+		<script type="text/javascript" src="/static/js/jquery.min.js"></script>
+		<script type="text/javascript" src="/static/js/semantic.min.js"></script>
+		<style type="text/css">
+			#menubar:hover{
+				background-color:lightgreen;
+			}
+			#menubar{
+				color:white;
+				font-weight: bold;
+			}
+
+		</style>
+	</head>
+<body style="background-image: url('/static/images/galaxy.jpg');background-size: cover;">
+	<div class="ui piled segment" style="background-image: url('/static/images/earth.jpg');height: 7em;">
+		<div class="ui blue centered header" style="font-size: 3em;font-family: 'Georgia';">
+			 <img style="width: 60px;height:60px;margin-top:-10px" src="/static/images/arrailway.jpg" class="ui circular image"></i><span style="color: magenta"> Animals Counting</span>
+		</div>
+		<div class="" style="height: 10px;">
+			<div class='ui inverted teal raised menu' style='height:4em;'><a href='#' class='item' id='menubar'>Home</a>
+				<a href='#' class='item' id='menubar'>Animals</a>
+				<a href='#' class='item' id='menubar'>About</a>
+				<a href='#' class='item' id='menubar'><i class='user icon'></i>Login</a>
+				<a href='#' class='item' align='right' id='menubar'>Register</a></div>
+		</div>
+	</div>
+		<br><br><br><br>
+	{% block content %}
+	{% endblock %}
+</body>
+</html>

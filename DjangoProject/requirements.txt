@@ -1,0 +1,6 @@
+==> requirements <==
+-->opencv
+-->mcrnn
+-->keras
+-->PIL
+-->django
