@@ -79,8 +79,7 @@ Above screens, output has some bounding boxes on it. Those are prediction result
 
 # Contact Details:
   * **Name:** Rajashekhar.G
-  * **Linkedin prof:** https://www.linkedin.com/in/rajashekhar-gugulothu-26b01112a
+  * **Linkedin prof:** https://www.linkedin.com/in/rajashekhar-gugulothu/
   * **Email:** rajharry418@gmail.com
-  * **Contact No:** 9550706607
 
 
